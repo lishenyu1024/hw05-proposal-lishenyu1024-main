@@ -7,14 +7,14 @@
 * Letian: Backend service
 * Shenyu: Frontend design
 
-## v0.2: Creating pet profile/group activity
+## v0.2: Prototype
 
 * Added functionality: Interacting with database, allowing user to create a pet profile and group activities.
 * A working version of v0.2 will be tagged for review in github and grading in Canvas.
 * Letian: database and backend service
 * Shenyu: frontend design
 
-## v0.3: Interactive map visualization
+## v0.3: Final project
 
 * Final app includes interactive map visualization
 * The front page on the site will show locations of group activities that have been created. Users can join existing group activities.
