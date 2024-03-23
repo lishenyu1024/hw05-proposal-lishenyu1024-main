@@ -8,26 +8,27 @@ where you'll find the [proposal-guidelines.md](proposal/proposal-guidelines.md)
 
 # Team
 
-**Team members:** Li Shenyu (team leader), Qin Letian (team member)
+**Team members:** Shenyu Li (team leader), Letian Qin(team member)
 
 **GitHub Classroom Repo:** [GitHub Classroom link][(https://github.com/nuwebdev/hw05-proposal-lishenyu1024/)](URL) – Hosted by Shenyu Li
 
 ## Project Objectives
 
-Develop a Pet Tinder website that allows pet owners to create profiles for their pets, including adding photos and liking other pets' profiles. The website will also incorporate a Maps API, allowing local pet owners to list their pets for public activities such as group walks, thereby promoting social interaction between pets and their owners.
+Develop a Pet Tinder website that allows pet owners to create profiles for their pets and list their pets for public activities such as group walks, thereby promoting social interaction between pets and their owners.
 
 ## User Stories
 
-### Pet Owner
-- As a pet owner, I can:
-  - Create a profile for my pet
+### Unregistered User
+- As an unregistered user, I can:
+  - Register with the application by providing a username and password
+
+### Registered User
+- As a registered user, I can:
+  - Log in with previously provided credentials
+  - Create a profile for my pet and list it for public activities
   - Add photos
   - Find other pets nearby to socialize with
-
-### Community Member
-- As a community member, I would like to:
-  - Explore pets in my area
-  - Organize or join group walks
+  - Join a listed public activity
 
 ## User Interface Design
 
@@ -36,10 +37,10 @@ The user interface will be simple and engaging, focusing on ease of use. We will
 - A landing page with a clear call-to-action (e.g., "Join Now")
 ![image](https://raw.githubusercontent.com/lishenyu1024/pics/4b3865681ab145d5226e0df31a0b745176ed0cf1/1.png)
 
-- Pet's profile creation page including name, age, breed, and photo upload fields
+- Pet's profile creation page including name, age, breed, availability, and photo upload fields
   ![image](https://raw.githubusercontent.com/lishenyu1024/pics/4b3865681ab145d5226e0df31a0b745176ed0cf1/2.png)
 
-- Main feed showing pet profiles with similar buttons and connection options
+- Main feed showing pet profiles and activities
 ![image](https://raw.githubusercontent.com/lishenyu1024/pics/4b3865681ab145d5226e0df31a0b745176ed0cf1/3.png)
 
 - Map interface for viewing and joining local pet events
